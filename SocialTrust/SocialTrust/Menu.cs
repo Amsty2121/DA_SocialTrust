@@ -10,7 +10,8 @@
         Console.WriteLine(" 4) Create SmallWorld Network");
         Console.WriteLine(" 5) Calculate Implicit Social Trust");
         Console.WriteLine(" 6) Calculate Explicit Social Trust");
-        Console.WriteLine(" 7) Add Person to Caffe");
+        Console.WriteLine(" 7) Add Person to Caffe with connections");
+        Console.WriteLine(" 8) Add Person to Caffe with no connections");
 
         Console.WriteLine("\n 0) Exit");
     }
@@ -25,20 +26,26 @@
             case "4": CreateSmallWorldNetwork(); PressAnyKey(); break;
             case "5": CalculateImplicitSocialTrust(); PressAnyKey(); break;
             case "6": CalculateExplicitSocialTrust(); PressAnyKey(); break;
-            case "7": AddPersonToCaffe(); PressAnyKey(); break;
+            case "7": AddPersonToCaffeConnections(); PressAnyKey(); break;
+            case "8": AddPersonToCaffeNoConnections(); PressAnyKey(); break;
             case "0": break;
 
             default: Console.WriteLine("\n No such Command"); PressAnyKey(); break;
         }
     }
 
-    public static void AddPersonToCaffe()
+    public static void AddPersonToCaffeConnections()
     {
-        //cafe.AddPerson("Stefania");
-        //cafe.AddVisitingTime("Stefania", new TimeSpan(22, 30, 0), new TimeSpan(23, 0, 0));
+        cafe.AddPerson("Apolo");
+        cafe.AddVisitingTime("Apolo",    new TimeSpan(9, 30, 0),  new TimeSpan(10, 0, 0));
 
-        //cafe.AddPerson("Apolo");
-        ///cafe.AddVisitingTime("Apolo",    new TimeSpan(9, 30, 0),  new TimeSpan(10, 0, 0));
+        cafe.EstablishContactsBasedOnVisitingTimes();
+    }
+
+    public static void AddPersonToCaffeNoConnections()
+    {
+        cafe.AddPerson("Stefania");
+        cafe.AddVisitingTime("Stefania", new TimeSpan(22, 30, 0), new TimeSpan(23, 0, 0));
 
         cafe.EstablishContactsBasedOnVisitingTimes();
     }
@@ -145,7 +152,7 @@
 
     private static void CreateCaveManNetwork()
     {
-        cafe.CreateCavemanNetwork(5);
+        cafe.CreateCavemanNetwork(4);
     }
 
     private static void CreateSmallWorldNetwork()
