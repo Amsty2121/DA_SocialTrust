@@ -1,0 +1,14 @@
+C:\Users\dimASUS\Desktop\DA\SocialTrust\SocialTrust\bin\Debug\net8.0\SocialTrust.exe
+C:\Users\dimASUS\Desktop\DA\SocialTrust\SocialTrust\bin\Debug\net8.0\SocialTrust.deps.json
+C:\Users\dimASUS\Desktop\DA\SocialTrust\SocialTrust\bin\Debug\net8.0\SocialTrust.runtimeconfig.json
+C:\Users\dimASUS\Desktop\DA\SocialTrust\SocialTrust\bin\Debug\net8.0\SocialTrust.dll
+C:\Users\dimASUS\Desktop\DA\SocialTrust\SocialTrust\bin\Debug\net8.0\SocialTrust.pdb
+C:\Users\dimASUS\Desktop\DA\SocialTrust\SocialTrust\obj\Debug\net8.0\SocialTrust.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dimASUS\Desktop\DA\SocialTrust\SocialTrust\obj\Debug\net8.0\SocialTrust.AssemblyInfoInputs.cache
+C:\Users\dimASUS\Desktop\DA\SocialTrust\SocialTrust\obj\Debug\net8.0\SocialTrust.AssemblyInfo.cs
+C:\Users\dimASUS\Desktop\DA\SocialTrust\SocialTrust\obj\Debug\net8.0\SocialTrust.csproj.CoreCompileInputs.cache
+C:\Users\dimASUS\Desktop\DA\SocialTrust\SocialTrust\obj\Debug\net8.0\SocialTrust.dll
+C:\Users\dimASUS\Desktop\DA\SocialTrust\SocialTrust\obj\Debug\net8.0\refint\SocialTrust.dll
+C:\Users\dimASUS\Desktop\DA\SocialTrust\SocialTrust\obj\Debug\net8.0\SocialTrust.pdb
+C:\Users\dimASUS\Desktop\DA\SocialTrust\SocialTrust\obj\Debug\net8.0\SocialTrust.genruntimeconfig.cache
+C:\Users\dimASUS\Desktop\DA\SocialTrust\SocialTrust\obj\Debug\net8.0\ref\SocialTrust.dll
